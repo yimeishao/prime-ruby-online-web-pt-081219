@@ -3,4 +3,5 @@ def prime?(num)
     return false 
   end 
   range = 2..num 
-  range.each do |
+  range.each do |x| 
+    
