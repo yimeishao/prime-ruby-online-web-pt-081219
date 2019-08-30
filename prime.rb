@@ -6,6 +6,5 @@ def prime?(num)
   range = 2..num-1
   range.each do |x|
     return false if num % x == 0
-   end
   else true
 end 
